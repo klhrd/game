@@ -66,6 +66,7 @@ basic.forever(function () {
     } else if (頭.get(LedSpriteProperty.Direction) == 270) {
         x += -1
     }
+    可不可以吃東西()
     每一節身體的動作X.unshift(x)
     每一節身體的動作Y.unshift(y)
     身體一起動()
