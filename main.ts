@@ -67,9 +67,7 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P15, joystickbit.ButtonType
     頭.set(LedSpriteProperty.Direction, 90)
 })
 function 身體一起動 () {
-    if (幾節身體 >= 1) {
-        動一節身體(1)
-    }
+    動一節身體(幾節身體)
 }
 let y = 0
 let x = 0
